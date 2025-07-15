@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Expletus Sans", sans-serif;
 }
 
 body {
   background-color: #efefef;
+  font-family: "Expletus Sans", sans-serif;
+}
+a{
+    list-style: none;
 }
 
-a {
+.lojas {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -20,8 +25,8 @@ a {
   background-color: #ffffff;
   border-radius: 20px;
   margin: 5px;
-  gap: 5px; /* espaçamento entre a imagem e o texto */
-  flex-wrap: wrap; /* permite quebrar se necessário */
+  gap: 5px; 
+  flex-wrap: wrap; 
 }
 
 main {
@@ -34,7 +39,7 @@ main {
 }
 
 .logo {
-  width: 200px;
+  width: 300px;
   max-width: 80%;
 }
 
@@ -54,7 +59,7 @@ ul {
 
 li {
   width: 100%;
-  max-width: 300px; /* evita que fique muito grande */
+  max-width: 500px; 
 }
 
 .whats {
@@ -63,22 +68,27 @@ li {
 }
 
 .container2 {
-  display: flex;
+  text-decoration: none;
   justify-content: center;
+  align-items: center;
+  display: flex;
   color: #666666;
   margin-top: 20px;
+  font-family: "Inria Sans", sans-serif;
 }
 
 .insta {
-  width: 20px;
-  height: auto;
   margin-right: 8px;
+  color: #666666;
 }
 
+.containerInsta{
+    text-align: center;
+}
 /* Responsividade para telas pequenas */
 @media (max-width: 500px) {
   .logo {
-    width: 150px;
+    width: 70vw;
   }
 
   a {
@@ -89,7 +99,7 @@ li {
   }
 
   li {
-    width: 90%;
+    width: 100%;
   }
 
   .whats {
