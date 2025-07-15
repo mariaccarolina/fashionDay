@@ -27,6 +27,7 @@ a {
   margin: 5px;
   gap: 8px;
   flex-wrap: wrap;
+    font-family: "Inria Sans", sans-serif;
 }
 
 main {
