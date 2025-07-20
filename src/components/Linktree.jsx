@@ -1,9 +1,7 @@
-
-
 export default function Linktree() {
   return (
     <main className="container">
-      <section>
+      <section className="caixa">
         <img className="logo" src="./day.png" alt="logomarca" />
         <p className="bordao">A loja mais tombadora da cidade!</p>
         <nav>
